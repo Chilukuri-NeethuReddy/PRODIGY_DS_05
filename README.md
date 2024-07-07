@@ -11,15 +11,15 @@ The dataset used in this project is the RTA Dataset, containing information abou
 
 
 ## Steps:
-1.Data Loading: Load the dataset and explore its structure.
+1.**Data Loading**: Load the dataset and explore its structure.
 
-2.Data Preprocessing: Convert time columns to datetime format and explore basic information about the dataset
+2.**Data Preprocessing**: Convert time columns to datetime format and explore basic information about the dataset
 
-3.Visualization: Visualize accidents by road surface conditions, weather conditions, time of day, and accident severity.
+3.**Visualization**: Visualize accidents by road surface conditions, weather conditions, time of day, and accident severity.
 
-4.Correlation Analysis: Perform correlation analysis for numerical variables.
+4.**Correlation Analysis**: Perform correlation analysis for numerical variables.
 
-5.Summary Visualization: Display a pie chart of accident severity distribution.
+5.**Summary Visualization**: Display a pie chart of accident severity distribution.
 
 
 
@@ -105,6 +105,9 @@ plt.show()
 
 ```
 
+### Accidents by weather conditions
+
+
 ![Screenshot 2024-07-07 112523](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_05/assets/174725064/8cbef780-9da8-4ed6-830c-6fe58d31b318)
 
 ```python
@@ -124,6 +127,8 @@ plt.ylabel('Frequency')
 plt.show()
 ```
 
+### Accidents by time of day
+
 ![Screenshot 2024-07-07 112618](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_05/assets/174725064/60746d6a-93ec-4fc6-8c1e-3acefbf81b48)
 
 ```python
@@ -136,6 +141,8 @@ sns.heatmap(df_num.corr(), annot=True, cmap=sns.diverging_palette(240, 10, n=9, 
 plt.title('Correlation Matrix of Numerical Variables')
 plt.show()
 ```
+
+### Correlation Matrix of Numerical Variables
 
 ![Screenshot 2024-07-07 113002](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_05/assets/174725064/9f43d3e8-877e-43dc-b3e9-d59782b6e939)
 
@@ -156,6 +163,7 @@ plt.tight_layout()
 plt.show()
 ```
 
+### Pie chart of accident severity
 ![Screenshot 2024-07-07 113044](https://github.com/Chilukuri-NeethuReddy/PRODIGY_DS_05/assets/174725064/a7d0fdb9-6652-4716-b327-a2f6068118fd)
 
 
