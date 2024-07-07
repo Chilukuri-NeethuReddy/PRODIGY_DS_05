@@ -1,16 +1,16 @@
 # PRODIGY_DS_05
 
-##ProdigyInfoTech_TASK5
+## ProdigyInfoTech_TASK5
 
-##TASK 5: Analyzing Traffic Accident Data
+## TASK 5: Analyzing Traffic Accident Data
 This project analyzes traffic accident data to identify patterns related to road conditions, weather, and time of day, and visualizes accident hotspots and contributing factors.
 
 
-##Dataset:
+## Dataset:
 The dataset used in this project is the RTA Dataset, containing information about traffic accidents.
 
 
-##Steps:
+## Steps:
 1.Data Loading: Load the dataset and explore its structure.
 
 2.Data Preprocessing: Convert time columns to datetime format and explore basic information about the dataset
@@ -23,7 +23,7 @@ The dataset used in this project is the RTA Dataset, containing information abou
 
 
 
-##How to Run:
+## How to Run:
 
 1.Clone the repository.
 
@@ -35,7 +35,7 @@ The dataset used in this project is the RTA Dataset, containing information abou
 
 
 
-##Code
+## Code
 
 ```python
 
